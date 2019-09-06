@@ -1,8 +1,8 @@
 // eslint-disable
 // this is an auto generated file. This will be overwritten
 
-export const onCreatePost = `subscription OnCreatePost {
-  onCreatePost {
+export const onUpdatePostWithId = `subscription OnUpdatePostWithId($id: ID!) {
+  onUpdatePostWithId(id: $id) {
     id
     clientId
     markdown
@@ -11,8 +11,8 @@ export const onCreatePost = `subscription OnCreatePost {
   }
 }
 `;
-export const onUpdatePostWithId = `subscription onUpdatePostWithId($id: ID!) {
-  onUpdatePostWithId(id: $id) {
+export const onCreatePost = `subscription OnCreatePost {
+  onCreatePost {
     id
     clientId
     markdown

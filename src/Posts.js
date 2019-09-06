@@ -127,13 +127,16 @@ const Posts = (props) => {
           Built with &nbsp;
           <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://aws-amplify.github.io/" {...styles.footerLink}>AWS Amplify</a>
           &nbsp; &amp; &nbsp;
           <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://aws.amazon.com/appsync/" {...styles.footerLink}>AWS AppSync</a>. Deployed with the
           <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://aws.amazon.com/amplify/console/" {...styles.footerLink}>&nbsp;Amplify Console</a>
           .
           </p>
