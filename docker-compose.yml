@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  write-with-me:
+    build:
+      context: .
+      target: develop
+    image: write-with-me
+    container_name: write-with-me
+    init: true
+    command: npm run start
+    ports:
+      - 3000:3000
+    volumes:
+      - /usr/app/node_modules
+      - .:/usr/app
